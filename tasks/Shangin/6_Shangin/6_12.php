@@ -14,11 +14,11 @@
     $d = [];
     for ($i = 1; $i <= 1000; ++$i) { $d[$i] = array_sum(dividers($i)); }
     for ($i = 1; $i < 1000; ++$i) {
-    for ($j = $i + 1; $j <= 1000; ++$j) {
-    if ($d[$i] == $j && $d[$j] == $i) {
-    echo $i, ' ', $j, "\n";
-    }
-    }
+        for ($j = $i + 1; $j <= 1000; ++$j) {
+            if ($d[$i] == $j && $d[$j] == $i) {
+                echo $i, ' ', $j, "\n";
+            }
+        }
     }
 ?>
 <br>
@@ -26,27 +26,21 @@
     $num = 999999;  
  
     function happy($num){
- 
-    $count=0;
- 
-    for($i=1;$i<=$num;$i++){
-   
-    $str =(string)$i;
-    if(strlen($str)<6){
-    for($j=strlen($str);$j<6;$j++){  
-    $str='0'.$str;  
-    }
-    }
-    $arr = $str;
-    If($arr[0]+$arr[1]+$arr[2] == $arr[3]+$arr[4]+$arr[5]){
-
-    $count++; echo 'Билет номер: '.$str.'<br>'; }
-     }
-
-    echo 'Количество счсатливых билетов :'.$count;
-
-    }
-        echo happy($num);
+        $count=0;
+        for($i=1;$i<=$num;$i++){
+            $str =(string)$i;
+            if(strlen($str)<6){
+                for($j=strlen($str);$j<6;$j++){  
+                $str='0'.$str;  
+                }
+            }
+            $arr = $str;
+            If($arr[0]+$arr[1]+$arr[2] == $arr[3]+$arr[4]+$arr[5]){
+                $count++; echo 'Билет номер: '.$str.'<br>'; }
+            }
+                echo 'Количество счсатливых билетов :'.$count;
+            }   
+                echo happy($num);
 ?>
 <br>
 <?php
