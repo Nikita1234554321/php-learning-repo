@@ -1,6 +1,6 @@
 <?php
-	$name = 'user';
-	echo "hello, $name !";
+    $name = 'user';
+    echo "hello, $name !";
 ?>
 <br>
 <?php
@@ -9,6 +9,6 @@
 ?>
 <br>
 <?php
-	$arr = ['a' => 1, 'b' => 2, 'c' => 3];
-	echo "text $arr[a] text $arr[b] text";
+    $arr = ['a' => 1, 'b' => 2, 'c' => 3];
+    echo "text $arr[a] text $arr[b] text";
 ?>
