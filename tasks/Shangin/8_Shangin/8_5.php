@@ -1,10 +1,10 @@
 <form action="" method="GET">
-	<input
-		name="Город и страна"
+    <input
+        name="Город и страна"
         placeholder = "Город и страна"
-		value="<?php if (isset($_GET['Город и страна'])) echo $_GET['Город и страна'] ?>"
-	>
-	<input type="submit">
+	value="<?php if (isset($_GET['Город и страна'])) echo $_GET['Город и страна'] ?>"
+    >
+    <input type="submit">
 </form>
 <br>
 
