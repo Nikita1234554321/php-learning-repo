@@ -1,23 +1,23 @@
 <?php
-	function funct($a, $b) {
+    function funct($a, $b) {
         return $a = $b;
-	}
+    }
 ?>
 <br>
 <?php
-	function func($a, $b) {
-		return $a != $b;
-	}
+    function func($a, $b) {
+        return $a != $b;
+    }
 ?>
 <br>
 <?php
-	function func($a, $b) {
-		return (($a + $b) < 10);
-	}
+    function func($a, $b) {
+        return (($a + $b) < 10);
+    }
 ?>
 <br>
 <?php
-	function func($num) {
-		return $a >= 0;
-	}
+    function func($num) {
+        return $a >= 0;
+    }
 ?>  
