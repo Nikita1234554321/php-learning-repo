@@ -1,13 +1,13 @@
 <?php
-	var_dump($_GET['par1']); 
+    var_dump($_GET['par1']); 
 ?>
 <br>
 <?php
-	var_dump($_GET['par2'] * $_GET['par2']); 
+    var_dump($_GET['par2'] * $_GET['par2']); 
 ?>
 <br>
 <?php
-	var_dump($_GET['par3'] + $_GET['par3']); 
+    var_dump($_GET['par3'] + $_GET['par3']); 
 ?>
 <br>
 <?php
