@@ -1,6 +1,6 @@
 <?php
-	setcookie('test', 'abcde');
+    setcookie('test', 'abcde');
 ?>
 <?php
-	echo $_COOKIE['test']; // выведет 'abcde'
+    echo $_COOKIE['test']; // выведет 'abcde'
 ?>
