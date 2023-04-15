@@ -1,15 +1,15 @@
 <?php
-	session_start();
+    session_start();
 	
-	if (!empty($_GET)) {
-		$_SESSION = $_GET;
-	}
+    if (!empty($_GET)) {
+        $_SESSION = $_GET;
+    }
 ?>
 
 <?php
-	if (!empty($_GET)) {
-		$_SESSION['nums'] = $_GET;
-	}
+    if (!empty($_GET)) {
+        $_SESSION['nums'] = $_GET;
+    }
 ?>
 
 <?php
@@ -20,8 +20,8 @@
 
 <form method="GET">
     <input name="Фамилия" type='text' placeholder='Фамилия'>
-	<input name="Имя" type='text' placeholder='Имя'>
-	<input name="Зарплата" type='text' placeholder='Зарплата'>
+    <input name="Имя" type='text' placeholder='Имя'>
+    <input name="Зарплата" type='text' placeholder='Зарплата'>
     <input name="Возраст" type='text' placeholder='Возраст'>
-	<input type="submit">
+    <input type="submit">
 </form>
