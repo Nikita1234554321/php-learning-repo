@@ -1,7 +1,7 @@
 <?php
-if (empty($_COOKIE['time'])) {
-    setcookie('time', time());
+    if (empty($_COOKIE['time'])) {
+        setcookie('time', time());
 }
  
-echo time() - $_COOKIE['time'];
+    echo time() - $_COOKIE['time'];
 ?>
