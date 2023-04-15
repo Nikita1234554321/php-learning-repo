@@ -6,5 +6,4 @@
     }
      
     echo time() - $_SESSION['time'];
-    
 ?>
