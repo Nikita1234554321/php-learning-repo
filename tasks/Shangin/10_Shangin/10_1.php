@@ -1,5 +1,5 @@
 <?php
-	$file1 = file_get_contents('1.txt');
+    $file1 = file_get_contents('1.txt');
     $file2 = file_get_contents('2.txt');
     echo ($file1 + $file2);
 ?>
@@ -7,7 +7,7 @@
 <?php
     $arr = [2, 4, 5];
     $arrsum = array_sum($arr);
-	$sum = file_put_contents('sum.txt', $arrsum);
+    $sum = file_put_contents('sum.txt', $arrsum);
     echo file_get_contents('sum.txt');
 ?>
 <br>
@@ -20,8 +20,8 @@
 ?>
 <br>
 <?php 
-$t = file_get_contents('count.txt');
-echo $t + 1;
-file_put_contents("count.txt",$t=$t+1);
+    $t = file_get_contents('count.txt');
+    echo $t + 1;
+    file_put_contents("count.txt",$t=$t+1);
 ?>
 <br>
