@@ -1,7 +1,7 @@
 <?php
-	include 'file1.php';
-	include 'file2.php';
-	include 'file3.php';
+    include 'file1.php';
+    include 'file2.php';
+    include 'file3.php';
 	
-	echo 'index';
+    echo 'index';
 ?>
