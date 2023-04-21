@@ -1,4 +1,4 @@
 <?php
-	session_start();
-	$_SESSION['flash'][] = 'сообщение 2';
+    session_start();
+    $_SESSION['flash'][] = 'сообщение 2';
 ?>
