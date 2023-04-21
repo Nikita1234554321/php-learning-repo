@@ -7,12 +7,12 @@
     $link = mysqli_connect($host, $user, $pass, $name);
     mysqli_query($link, "SET NAMES 'utf8'");
 
-	$query = "SELECT * FROM users";
-	$result = mysqli_query($link, $query) or die(mysqli_error($link));
-	for ($data = []; $row = mysqli_fetch_assoc($result); $data[] = $row);
+    $query = "SELECT * FROM users";
+    $result = mysqli_query($link, $query) or die(mysqli_error($link));
+    for ($data = []; $row = mysqli_fetch_assoc($result); $data[] = $row);
 
 
-	foreach ($data as $elem): ?>
+    foreach ($data as $elem): ?>
         <div>
             <h2><?= $elem['name'] ?></h2>
             <p><?= $elem['age'] . ' ' . 'years' ?></p>
@@ -36,6 +36,6 @@
     foreach ($data as $elem): ?>
         <ul>
             <li><?= $elem['name'] ?></li>
-    </ul>
+        </ul>
     <?php endforeach; 
 ?>
