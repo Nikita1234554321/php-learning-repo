@@ -1,6 +1,6 @@
 <?php
-	session_start();
+    session_start();
 	
-	$_SESSION['flash'] = 'сообщение';
-	header('Location: 14_3p2.php');
+    $_SESSION['flash'] = 'сообщение';
+    header('Location: 14_3p2.php');
 ?>
