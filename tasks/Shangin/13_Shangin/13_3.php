@@ -14,8 +14,8 @@
     
 ?>
 <form action="save.php?id=<?= $_GET['id'] ?>" method="POST">
-	<input name="name" value="<?= $user['name'] ?>">
-	<input name="age" value="<?= $user['age'] ?>">
-	<input name="salary" value="<?= $user['salary'] ?>">
-	<input type="submit">
+    <input name="name" value="<?= $user['name'] ?>">
+    <input name="age" value="<?= $user['age'] ?>">
+    <input name="salary" value="<?= $user['salary'] ?>">
+    <input type="submit">
 </form>
