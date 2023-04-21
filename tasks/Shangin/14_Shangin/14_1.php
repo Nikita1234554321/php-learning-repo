@@ -1,4 +1,4 @@
 <?php
-	$addr = 'page.php';
-	header("Location: $addr");
+    $addr = 'page.php';
+    header("Location: $addr");
 ?>
