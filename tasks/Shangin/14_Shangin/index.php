@@ -1,11 +1,11 @@
 <?php
-	session_start();
+    session_start();
 	
-	if (!empty($_SESSION['flash'])) {
-		foreach ($_SESSION['flash'] as $flash) {
-			echo $flash;
-		}
+    if (!empty($_SESSION['flash'])) {
+        foreach ($_SESSION['flash'] as $flash) {
+	    echo $flash;
+        }
 		
-		$_SESSION['flash'] = [];
-	}
+        $_SESSION['flash'] = [];
+    }
 ?>
