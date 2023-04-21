@@ -7,10 +7,10 @@
     $link = mysqli_connect($host, $user, $pass, $name);
     mysqli_query($link, "SET NAMES 'utf8'");
 
-	if (!empty($_POST)) {
+    if (!empty($_POST)) {
         $name = $_POST['name'];
-	    $age = $_POST['age'];
-	    $salary = $_POST['salary'];
+	$age = $_POST['age'];
+	$salary = $_POST['salary'];
     }
         
     $query = "INSERT INTO users SET name='$name', age='$age', salary='$salary'";
@@ -18,8 +18,8 @@
 ?>
 
 <form action="" method="POST">
-	<input name="name" placeholder='name'>
-	<input name="age" placeholder='age'>
-	<input name="salary" placeholder='salary'>
-	<input type="submit">
+    <input name="name" placeholder='name'>
+    <input name="age" placeholder='age'>
+    <input name="salary" placeholder='salary'>
+    <input type="submit">
 </form>
